@@ -1,0 +1,22 @@
+- conda list -n base 
+- conda list -p ./_env
+- conda env list
+- conda env remove --name xxx 
+- conda env remove --prefix "<fullpath>\env"  
+- conda env update --prefix ./env --file environment.yml --prune 
+- conda env update --prefix ./env --file environment.yml --prune --force-reinstall 
+- conda env create --file environment.yml --prefix ./env 
+- conda activate ./envs (this might not be needed)
+- conda deactivate 
+- conda activate <fullpath>/env-name-here 
+- conda uninstall -p <fullpath>\env --all 
+- conda update -n base -c defaults conda
+- conda install -c conda-forge tensorflow
+- conda install -n base python==3.8.15 --update-deps --force-reinstall 
+- pip install ydata-synthetic 
+- conda install -n base ipykernel --update-deps --force-reinstall 
+- conda install -n base --update-deps 
+- conda install -n base -c conda-forge matplotlib 
+- conda install --file "<fullpath>\requirements.txt" --force-reinstall 
+- pip install -r "<fullpath>\requirements.txt" 
+- python -m pip uninstall
