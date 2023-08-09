@@ -1,0 +1,1 @@
+Traning notebooks adopted & adjusted from: https://learn.deeplearning.ai/
